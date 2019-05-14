@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30EC0FE228A66C500DFCC8E /* CountdownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30EC0FD228A66C500DFCC8E /* CountdownPicker.swift */; };
 		BD02B689228292AC003F3D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02B688228292AC003F3D78 /* AppDelegate.swift */; };
 		BD02B68B228292AC003F3D78 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD02B68A228292AC003F3D78 /* CountdownViewController.swift */; };
 		BD02B68E228292AC003F3D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD02B68C228292AC003F3D78 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30EC0FD228A66C500DFCC8E /* CountdownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownPicker.swift; sourceTree = "<group>"; };
 		BD02B685228292AC003F3D78 /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD02B688228292AC003F3D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD02B68A228292AC003F3D78 /* CountdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BD02B688228292AC003F3D78 /* AppDelegate.swift */,
 				BD02B68A228292AC003F3D78 /* CountdownViewController.swift */,
+				A30EC0FD228A66C500DFCC8E /* CountdownPicker.swift */,
 				BD02B69A228292CD003F3D78 /* Countdown.swift */,
 				BD02B68C228292AC003F3D78 /* Main.storyboard */,
 				BD02B68F228292AD003F3D78 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				BD02B68B228292AC003F3D78 /* CountdownViewController.swift in Sources */,
 				BD02B689228292AC003F3D78 /* AppDelegate.swift in Sources */,
 				BD02B69B228292CD003F3D78 /* Countdown.swift in Sources */,
+				A30EC0FE228A66C500DFCC8E /* CountdownPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,15 +291,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = P6F637GFXF;
 				INFOPLIST_FILE = Countdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.Countdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,15 +310,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = P6F637GFXF;
 				INFOPLIST_FILE = Countdown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdaschool.Countdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
